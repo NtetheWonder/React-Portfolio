@@ -1,106 +1,112 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
-    "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"http://github.com/rbhatia46",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
-      ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
-    "education":[
+  "imagebaseurl":"https://ntethewonder.github.io/",
+  "name": "Ntethelelo Shabalala",
+  "role": "Software Developer",
+  "linkedinId":"https://www.linkedin.com/in/ntethewonder/",
+  "skypeid": "Your skypeid",
+  "roleDescription": " a passionate someone with a flair for frontend development. Here, you'll discover the intersection of my academic journey, hands-on projects, and a deep-rooted love for crafting exceptional web solutions.",
+  "socialLinks":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ntethewonder/",
+        "className":"fa fa-linkedin"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "name":"github",
+        "url":"http://github.com/ntethewonder",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://twitter.com/ntethewonder",
+        "className":"fa fa-twitter"
       }
     ],
-    "work":[
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
-  }
-  
-  export default resumeData
+  "aboutme":"Hello! I'm Ntethelelo Shabalala, a recent graduate with a degree in Computer Science and Information Technology. Armed with proficiency in Java, Python, HTML, CSS, JavaScript and React, I'm eager to leverage my problem-solving mindset and collaborative spirit to contribute meaningfully to the tech industry. Adaptable and quick to learn, I bring a fresh perspective and enthusiasm for innovation. I'm actively seeking opportunities in software development, data analysis, or any exciting tech role where I can grow, learn, and make a positive impact. Let's connect and explore the possibilities together! 🚀 ntethewonder@gmail | https://www.linkedin.com/in/ntethewonder/",
+  "address":"South Africa",
+  "website":"https://ntethewonder.github.io",
+  "education":[
+    {
+      "UniversityName":"BSc Computer Science and Information Technology",
+      "specialization":"University of KwaZulu-Natal",
+      "MonthOfPassing":"Dec",
+      "YearOfPassing":"2021",
+      "Achievements":"Some Achievements"
+    },
+    {
+      "UniversityName":"Bhekathina High School",
+      "specialization":"Science Stream",
+      "MonthOfPassing":"Dec",
+      "YearOfPassing":"2017",
+      "Achievements":"Mathematics, Physical Science, Life Science, Geography, English (FAL), IsiZulu, LO"
+    }
+  ],
+  "work":[
+    {
+      "CompanyName":"Some Company",
+      "specialization":"Some specialization",
+      "MonthOfLeaving":"Jan",
+      "YearOfLeaving":"2018",
+      "Achievements":"Some Achievements"
+    },
+    {
+      "CompanyName":"The Complete 2023 Web development - bootcamp",
+      "specialization":"Udemy",
+      "MonthOfLeaving":"Oct",
+      "YearOfLeaving":"2023",
+      "Achievements":"Some Achievements"
+    }
+  ],
+  "skillsDescription":"Your skills here",
+  "skills":[
+    {
+      "skillname":"Java"
+    },
+    {
+      "skillname":"Python"
+    },
+    {
+      "skillname":"HTML5"
+    },
+    {
+      "skillname":"CSS"
+    },
+    {
+      "skillname":"Reactjs"
+    }
+  ],
+  "portfolio":[
+    {
+      "name":"project1",
+      "description":"mobileapp",
+      "imgurl":"images/portfolio/coffee.jpg"
+    },
+    {
+      "name":"project2",
+      "description":"mobileapp",
+      "imgurl":"images/portfolio/girl.jpg"
+    },
+    {
+      "name":"project3",
+      "description":"mobileapp",  
+      "imgurl":"images/portfolio/farmerboy.jpg"
+    },
+    {
+      "name":"Portfolio Website",
+      "description":"This is perosnal portfolio website built with React.js",
+      "imgurl":"images/portfolio/judah.jpg"
+    }
+  ],
+  "testimonials":[
+    {
+      "description":"This is a sample testimonial",
+      "name":"Some technical guy"
+    },
+    {
+      "description":"This is a sample testimonial",
+      "name":"Some technical guy"
+    }
+  ]
+}
+
+export default resumeData
