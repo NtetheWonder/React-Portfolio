@@ -77,24 +77,36 @@ let resumeData = {
   ],
   "portfolio":[
     {
-      "name":"project1",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/coffee.jpg"
+      "name":"Web Design Agency",
+      "description":"website for",
+      "imgurl":"images/portfolio/coffee.jpg",
+      "tools":"HTML, CSS and JavaScript",
+      "gitLink":"https://ntethewonder.github.io",
+      "webLink":"https://ntethewonder.github.io"
     },
     {
-      "name":"project2",
+      "name":"E-commerce",
       "description":"mobileapp",
-      "imgurl":"images/portfolio/girl.jpg"
+      "imgurl":"images/portfolio/girl.jpg",
+      "tools":"JavaScript and ReactJS",
+      "gitLink":"https://ntethewonder.github.io",
+      "webLink":"https://ntethewonder.github.io"
     },
     {
       "name":"project3",
       "description":"mobileapp",  
-      "imgurl":"images/portfolio/farmerboy.jpg"
+      "imgurl":"images/portfolio/farmerboy.jpg",
+      "tools":"JavaScript and ReactJS",
+      "gitLink":"https://ntethewonder.github.io",
+      "webLink":"https://ntethewonder.github.io"
     },
     {
       "name":"Portfolio Website",
-      "description":"This is perosnal portfolio website built with React.js",
-      "imgurl":"images/portfolio/judah.jpg"
+      "description":"This is personal portfolio website built with React.js",
+      "imgurl":"images/portfolio/judah.jpg",
+      "tools":"JavaScript and ReactJS",
+      "gitLink":"https://ntethewonder.github.io",
+      "webLink":"https://ntethewonder.github.io"
     }
   ],
   "testimonials":[

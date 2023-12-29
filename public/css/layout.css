@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -511,6 +511,50 @@ ul#nav li.current a { color: #F06000; }
 	filter:alpha(opacity=100);
 }
 
+/* Portfolio.css */
+
+/* Styles for the mini window container */
+/* Portfolio.css */
+
+/* Styles for the mini window container */
+.mini-window-container {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   max-height: 95%;
+   transform: translate(-50%, -50%);
+   z-index: 1000;
+   background-color: rgba(255, 255, 255, 0.9);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+   animation: fadeIn 0.5s ease-in-out; /* Add fade-in animation */
+ }
+ 
+ /* Styles for the mini window content */
+ .mini-window {
+   text-align: center; /* Center the content */
+ }
+ 
+ /* Styles for the mini window image */
+ .mini-window-img {
+   max-width: 50%; /* Ensure the image fits within the container */
+   border-radius: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ /* Keyframes for fade-in animation */
+ @keyframes fadeIn {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+ }
+ 
+ 
+
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
@@ -757,7 +801,7 @@ call-to-action .button {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
