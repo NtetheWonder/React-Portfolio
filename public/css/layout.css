@@ -517,33 +517,34 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio.css */
 
 /* Styles for the mini window container */
+/* Styles for the mini window container */
 .mini-window-container {
    position: fixed;
-   top: 50%;
-   left: 50%;
-   max-height: 95%;
-   transform: translate(-50%, -50%);
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
    z-index: 1000;
    background-color: rgba(255, 255, 255, 0.9);
    padding: 20px;
-   border-radius: 10px;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-   animation: fadeIn 0.5s ease-in-out; /* Add fade-in animation */
  }
  
  /* Styles for the mini window content */
  .mini-window {
-   text-align: center; /* Center the content */
+   text-align: center;
+   background-color: #fff;
+   border-radius: 10px;
+   overflow: hidden;
  }
  
  /* Styles for the mini window image */
  .mini-window-img {
-   max-width: 50%; /* Ensure the image fits within the container */
-   border-radius: 10px;
-   margin-bottom: 10px;
+   max-width: 100%;
+   border-radius: 10px 10px 0 0;
  }
  
- /* Keyframes for fade-in animation */
+ /* Animation effect for fadeIn */
  @keyframes fadeIn {
    from {
      opacity: 0;
@@ -552,6 +553,22 @@ ul#nav li.current a { color: #F06000; }
      opacity: 1;
    }
  }
+ 
+ .animated {
+   animation-duration: 0.5s;
+   animation-fill-mode: both;
+ }
+ 
+ /* Media query for smaller screens or mobile devices */
+ @media screen and (max-width: 768px) {
+   .mini-window-container {
+     padding: 10px; /* Adjust padding for smaller screens */
+   }
+   .mini-window {
+     border-radius: 0;
+   }
+ }
+ 
  
  
 

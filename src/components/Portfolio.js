@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//import './Portfolio.css'; // Import your CSS file for styling
 
 class Portfolio extends Component {
   constructor(props) {
@@ -51,27 +52,28 @@ class Portfolio extends Component {
         {/* Mini window that appears when a project is clicked */}
         {showMiniWindow && (
           <div className="mini-window-container">
-            <div className="mini-window">
+            <div className="mini-window animated fadeIn">
               {/* Mini window content including the project image */}
               <img src={`${selectedProject.imgurl}`} className="mini-window-img" alt={selectedProject.name} />
               <h3>Project Details</h3>
               <p>{selectedProject.description}</p>
               <h6>{selectedProject.tools}</h6>
-              {/* GitHub link */}
-              
-              <ul>
-              <li>
-                  GitHub: <a href={selectedProject.website} target="_blank" rel="noopener noreferrer">{selectedProject.name}</a>
-                </li>
-              
+              {/* GitHub link with conditional rendering */}
+              {selectedProject.github ? (
+                <ul>
+                  <li>
+                    GitHub: <a href={selectedProject.github} target="_blank" rel="noopener noreferrer">{selectedProject.name}</a>
+                  </li>
+                </ul>
+              ) : null}
               {/* Website link */}
-              
-                <li>
-                  Website: <a href={selectedProject.website} target="_blank" rel="noopener noreferrer">Visit the project</a>
-                </li>
-              </ul>
-                
-              
+              {selectedProject.website && (
+                <ul>
+                  <li>
+                    Website: <a href={selectedProject.website} target="_blank" rel="noopener noreferrer">Visit the project</a>
+                  </li>
+                </ul>
+              )}
               {/* Add more details as needed */}
               {/* Close button to hide the mini window */}
               <button onClick={() => this.toggleMiniWindow(null)}>Close</button>
